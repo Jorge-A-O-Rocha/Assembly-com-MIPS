@@ -1,0 +1,62 @@
+		algoritimo fatorial n 
+
+declarar. 
+N, i, fat ; int
+
+inicio.
+
+	enquanto (n >= 0 e n <= 10)  faça
+
+		ler n; 
+
+	fim enquanto;
+
+	faça 
+		i = i + 1
+		fat = fat * i
+	enquanto (i <> n)
+
+	mostra fat;
+fim.	
+
+
+		algoritimo contador de numeros 
+
+declarar.
+n, cta1, cta2, cta3 : int;
+
+inicio.
+
+	enquanto (n >= 0 e n <= 100)  faça
+
+		ler n; 
+		
+		Se (n >=0 e <= 33) entao
+			cta1 = cta1 +1;
+		 senaose (n >= 34 e n <= 66) entao
+			cta2 = cta2 + 1;
+		  senao
+			cta3 = cta3 + 1;
+		fim se.
+		
+		se (n < 0) entao 
+			
+			mostra  cta1 , cta2, cta3;
+
+	fim enquanto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
